@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +13,41 @@ a {
 
 * {
   box-sizing: border-box;
+}
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  margin: 0;
+  background-color: #23272d;
+  color: #cfd9e4;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  color: #cfd9e4;
 }
