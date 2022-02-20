@@ -70,6 +70,7 @@ export default function Home() {
 
 import Head from 'next/head';
 import Link from 'next/link';
+import EventList from '../components/events/event-list';
 import { getFeaturedEvents } from '../dummy-data';
 
 function Homepage() {
@@ -84,7 +85,7 @@ function Homepage() {
       </Head>
       <h1>The Home Page</h1>
       <div>
-        
+        <EventList items={featuredEvents} />
       </div>
     </div>
   );
