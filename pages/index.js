@@ -70,8 +70,11 @@ export default function Home() {
 
 import Head from 'next/head';
 import Link from 'next/link';
+import { getFeaturedEvents } from '../dummy-data';
 
 function Homepage() {
+  const featuredEvents = getFeaturedEvents();
+
   return (
     <div>
       <Head>
@@ -80,6 +83,9 @@ function Homepage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>The Home Page</h1>
+      <div>
+        
+      </div>
     </div>
   );
 }
